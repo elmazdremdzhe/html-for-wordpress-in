@@ -1,0 +1,45 @@
+blue-btn = #4678ff
+dark-blue = #254ec0
+
+.button
+    border none
+    padding 10px 40px
+    font-size 14px
+    display inline-block
+
+    &__primary
+        border-radius 25px
+        background-color blue-btn
+        color white
+
+    &__dark
+        border-radius 25px
+        background-color dark-blue
+        color white
+
+    &__close
+        border-radius 50%
+        height 40px
+        width 40px
+        display none
+        background-color blue-btn
+        color white
+        padding 7px
+        margin 0px
+        position absolute
+        z-index 100
+        right 7px
+        margin-top -20px
+        cursor pointer
+
+
+    &__close .content
+        border 1px solid white
+        height 18px
+        width 18px
+        border-radius 50%
+        padding 10px
+        font-size 26px
+        line-height 14px
+        text-align center
+

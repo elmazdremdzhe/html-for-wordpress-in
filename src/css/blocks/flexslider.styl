@@ -1,0 +1,40 @@
+.flexslider
+    height 375px
+    border none !important
+    color white
+
+    &__slides
+        height 100%
+        &_item
+            height 100%
+            background-size cover
+
+.flex-control-nav
+    bottom 35px !important
+    z-index 10
+
+.flex-control-nav li
+        a
+            font-size 0
+            height 10px
+            width 10px
+            border none
+            background-color rgba(70, 101, 168, 0.75) !important
+            border-radius 100%
+            box-shadow none
+            -webkit-box-shadow none
+
+            &.flex-active
+                background rgb(67, 119, 253) !important
+                &:hover
+                    background rgb(67, 119, 253) !important
+
+            &:hover
+                background none !important
+
+.flexslider .content
+    padding-top 65px
+
+.close-wrapper
+    text-align right
+    position relative
